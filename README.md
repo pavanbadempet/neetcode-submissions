@@ -1,76 +1,47 @@
-# NeetCode Solutions — @pavanbadempet
+# NeetCode 150 & Blind 75 Solutions — Python & SQL
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa.svg?logo=github)](https://github.com/sponsors/pavanbadempet)
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-NeetCode.io-00ADB5?style=for-the-badge&logo=leetcode&logoColor=white" alt="NeetCode" />
+  <img src="https://img.shields.io/badge/Language-Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3" />
+  <img src="https://img.shields.io/badge/Database-SQL-CC292B?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL" />
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg?style=for-the-badge" alt="License: AGPL v3" /></a>
+  <a href="https://github.com/sponsors/pavanbadempet"><img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa.svg?style=for-the-badge&logo=github" alt="Sponsor" /></a>
+</p>
 
-
-> Synced automatically from [NeetCode.io](https://neetcode.io) · Repository: `neetcode-submissions`
-
----
-
-## What is this?
-
-[NeetCode.io](https://neetcode.io) is a coding interview preparation platform featuring curated problems, video solutions, and an in-browser code editor. This repository is automatically populated with your accepted (or all) solutions using the **GitHub Sync** feature.
+> **Curated solutions for NeetCode 150, Blind 75, and advanced SQL interview queries. Optimized for time and space complexity with clean, Pythonic code.**
 
 ---
 
-## How GitHub Sync works
+## 📚 Problem Directory Index
 
-1. **Connect your GitHub account** on [neetcode.io/profile/github](https://neetcode.io/profile/github).
-2. **Auto-commit** — every time you submit a solution on NeetCode, it is pushed here automatically (configurable by status).
-3. **Bulk Sync** — push all your past solutions at once from the GitHub settings page.
-4. **Manual sync** — from the submission history panel on any problem page, sync or remove individual submissions.
+### 🔹 Data Structures & Algorithms
 
----
+| Problem | Domain | Time Complexity | Space Complexity | Solution Link |
+|:---|:---|:---:|:---:|:---|
+| **Two Sum** | Arrays & Hashing | $O(N)$ | $O(N)$ | [View Solution](Data%20Structures%20&%20Algorithms/two-integer-sum) |
+| **Two Sum II (Sorted)** | Two Pointers | $O(N)$ | $O(1)$ | [View Solution](Data%20Structures%20&%20Algorithms/two-integer-sum-ii) |
+| **Three Sum** | Two Pointers | $O(N^2)$ | $O(1)$ | [View Solution](Data%20Structures%20&%20Algorithms/three-integer-sum) |
+| **Top K Frequent Elements** | Bucket Sort / Heap | $O(N)$ | $O(N)$ | [View Solution](Data%20Structures%20&%20Algorithms/top-k-elements-in-list) |
+| **Products of Array Except Self** | Prefix & Suffix | $O(N)$ | $O(1)$ | [View Solution](Data%20Structures%20&%20Algorithms/products-of-array-discluding-self) |
+| **Encode and Decode Strings** | String Formatting | $O(N)$ | $O(1)$ | [View Solution](Data%20Structures%20&%20Algorithms/string-encode-and-decode) |
+| **Valid Sudoku** | Hash Set Matrix | $O(1)$ | $O(1)$ | [View Solution](Data%20Structures%20&%20Algorithms/valid-sudoku) |
+| **Valid Parentheses** | Stack | $O(N)$ | $O(N)$ | [View Solution](Data%20Structures%20&%20Algorithms/validate-parentheses) |
+| **Min Stack** | Monotonic Stack | $O(1)$ ops | $O(N)$ | [View Solution](Data%20Structures%20&%20Algorithms/minimum-stack) |
 
-## Repository structure
+### 🔹 SQL & Data Modeling
 
-Solutions are organized by topic folder, then problem ID. Each submission is stored as a separate file:
-
-```
-<topic-folder>/
-  <problem-id>/
-    submission-0.<ext>   ← first submission
-    submission-1.<ext>   ← second submission
-    ...
-```
-
-**Example:**
-```
-Data Structures & Algorithms/two-integer-sum/submission-0.py
-Data Structures & Algorithms/binary-search/submission-0.ts
-Python For Beginners/python-hello-world/submission-0.py
-```
+| Topic | Focus Area | Solution Link |
+|:---|:---|:---|
+| **Window Functions & Aggregations** | Running totals, ranking, dense rank | [View SQL](SQL) |
+| **Subqueries & CTEs** | Recursive querying, intermediate sets | [View SQL](SQL) |
+| **Advanced Joins & Filters** | Self joins, anti joins, null handling | [View SQL](SQL) |
 
 ---
 
-## Supported languages
+## 🎯 Key Design Principles
+- **Optimal Asymptotics**: Every algorithm prioritizes optimal Big-O bounds.
+- **Clean Pythonic Syntax**: Type annotations, list comprehensions, and memory-efficient iterators.
+- **Interview-Ready**: Formatted to match FAANG / Tier-1 tech coding interview standards.
 
-| Language | Extension |
-|---|---|
-| Python | `.py` |
-| JavaScript | `.js` |
-| TypeScript | `.ts` |
-| Java | `.java` |
-| C++ | `.cpp` |
-| C# | `.cs` |
-| Go | `.go` |
-| Rust | `.rs` |
-| Kotlin | `.kt` |
-| Swift | `.swift` |
-| SQL | `.sql` |
-
----
-
-## Settings
-
-Manage your sync preferences at [neetcode.io/profile/github](https://neetcode.io/profile/github):
-
-- **Auto-commit toggle** — enable or disable automatic commits on submission
-- **Status filter** — sync all submissions or accepted only
-- **Rename repository** — rename this repo or start fresh with a new one
-- **Bulk Sync** — push all past solutions at once (rate-limited)
-
----
-
-*Generated by [NeetCode GitHub Integration](https://neetcode.io)*
+## 📄 License
+This repository is licensed under the [GNU Affero General Public License v3.0](LICENSE).
