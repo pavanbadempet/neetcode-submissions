@@ -1,5 +1,9 @@
 # NeetCode Solutions — @pavanbadempet
 
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa.svg?logo=github)](https://github.com/sponsors/pavanbadempet)
+
+
 > Synced automatically from [NeetCode.io](https://neetcode.io) · Repository: `neetcode-submissions`
 
 ---
